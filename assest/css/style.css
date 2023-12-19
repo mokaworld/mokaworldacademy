@@ -16,6 +16,7 @@ body{
 
     
 .loading{
+    
     position: absolute;
     top: 0;
     left: 0;
@@ -27,13 +28,12 @@ body{
   .image-load{
     animation: loading 5s linear 1s infinite reverse both;
     -webkit-animation: loading 5s linear 1s infinite reverse both;
-    img
-{
+    img{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 10%;
+    max-width: 15%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);

@@ -24,13 +24,10 @@ $('.stop').on('click',function(){
 })
 
 
+let loader = document.getElementById('loader');
 
-
-
-
-
-window.addEventListener("load", () => {
-    const loading = document.querySelector(".loading");
-    loading.classList.remove("loading");
-});
-
+window.onload = function(){
+    loader.style.display = "none";
+    console.log("loading successfully ");
+  
+};
