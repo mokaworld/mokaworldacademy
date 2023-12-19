@@ -13,11 +13,11 @@ owl.owlCarousel({
     pagination: false,
     rtl: true,
     dots:false,
-    autoplayTimeout:2000,
+    autoplayTimeout:2500,
     autoplayHoverPause:true
 });
 $('.play').on('click',function(){
-    owl.trigger('play.owl.autoplay',[2000])
+    owl.trigger('play.owl.autoplay',[2500])
 })
 $('.stop').on('click',function(){
     owl.trigger('stop.owl.autoplay')
