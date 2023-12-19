@@ -18,11 +18,71 @@
     <title> اكاديمية عالم موكا | لتصميم مواقع الويب </title>
 </head>
 <body>
-    <h1>اهلا بكم في اكاديميه عالم موكا</h1>
+     <!-- START NAVBAR -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+                <div class="container">
+                  <a class="navbar-brand" href="index.html">
+                    <img src="images/logo/logo.png" alt="logo">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
+                      </li>
+                      <!--
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li> -->
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          مسار التعلم 
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">اساسيات البرمجة</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#"> مسار front end developer </a></li>
+                          <li><a class="dropdown-item" href="#">مسار back end developer</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          كورسات
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">كورس html</a></li>
+                         <!-- <li><hr class="dropdown-divider"></li>-->
+                         <!-- <li><a class="dropdown-item" href="#">Something else here</a></li>-->
+                        </ul>
+                      </li>
+                  
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          بلاي ليست
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">مكتبات جافا سكربت</a></li>
+                          <li><a class="dropdown-item" href="#">ادوات تصميم المواقع</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">شروحات  css </a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">بلوج</a>
+                      </li> 
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+     
 
+              
+     <!-- END NAVBAR -->
     <!-- JS FILES  -->
+    <script src="assest/js/popper.js" ></script>
     <script src="assest/js/bootstrap.min.js"></script>
-    <script src="assest/js/popper.js"></script>
     <script src="assest/js/plugins.js"></script>
 </body>
 </html>
