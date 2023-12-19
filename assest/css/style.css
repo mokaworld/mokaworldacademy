@@ -25,8 +25,8 @@ body{
     z-index: 9999;
     overflow: auto;
   .image-load{
-    animation: loading 8s linear 1s infinite reverse both;
-    -webkit-animation: loading 8s linear 1s infinite reverse both;
+    animation: loading 5s linear 1s infinite reverse both;
+    -webkit-animation: loading 5s linear 1s infinite reverse both;
     img
 {
     position: absolute;
