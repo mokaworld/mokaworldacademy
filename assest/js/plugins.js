@@ -26,3 +26,11 @@ $('.stop').on('click',function(){
 
 
 
+
+
+
+window.addEventListener("load", () => {
+    const loading = document.querySelector(".loading");
+    loading.classList.remove("loading");
+});
+
