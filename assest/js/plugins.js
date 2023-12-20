@@ -24,6 +24,7 @@ $('.stop').on('click',function(){
 })
 
 
+// loader 
 let loader = document.getElementById('loader');
 
 window.onload = function(){
