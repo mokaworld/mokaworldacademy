@@ -3,11 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 :root{
     --main-color:#0185a6;
     --webkit-font-smoothing: antialiased;
+    --sec-padding: 20px 0 50px 0;
+    --imgs-padding:  10px 0 10px 0;
+    --p-padding:  10px 0 10px 0;
 }
+
+
 body{
     font-family: 'Cairo', sans-serif;
     direction: rtl;
@@ -170,9 +174,54 @@ body{
    }   
 }
   
+.way{
+    h2{
+        padding: var(--sec-padding);
+    }
+    .way-box{
+        background-color: #F4F6FA;
+        cursor: pointer;
+        img{
+            max-width: 40%;
+            padding: var(--imgs-padding);
+        }
+        p{
+            padding:var(--p-padding) ;
+            font-size: 17px;
+            font-weight: 500;
+            background: #fffcfc;
+            cursor: pointer;
+            background-color: #eee;
+            i{
+             padding-right: 5px;
+           }
+        }
+    }
+}
 
-
-
+  
+   .our-cources{
+        h2{
+            padding: var(--sec-padding);
+        }
+        h3{
+            padding: var(--sec-padding);
+            text-transform: uppercase;
+        }
+        p{
+            width: 80%;
+            font-size: 18px;
+        }
+        .btn{
+            background: var(--main-color);
+            border-color: var(--main-color);
+            border-radius: 0;
+         
+        }
+        img{
+        max-width: 100%;
+        }
+   }
 /* MEDIA QUERY */
 @media (max-width: 767px)  {
     #particles-js .hero .info h1{
