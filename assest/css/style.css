@@ -216,6 +216,9 @@ body{
             background: var(--main-color);
             border-color: var(--main-color);
             border-radius: 0;
+            i{
+                padding-right: 5px;
+            }
          
         }
         img{
