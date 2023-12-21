@@ -227,6 +227,12 @@ body{
    }
 /* MEDIA QUERY */
 @media (max-width: 767px)  {
+    .navbar-nav{
+        position: relative;
+        z-index: 9999;
+        background-color: #000;
+        
+    }
     #particles-js .hero .info h1{
      font-size: 22px;  
      } 
