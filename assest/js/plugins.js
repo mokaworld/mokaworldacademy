@@ -26,7 +26,7 @@ $(".stop").on("click", function () {
 // loader
 let loader = document.getElementById("loader");
 
-window.onload = function loderPage () {
+window.onload = function loderPage() {
   loader.style.display = "none";
   loader.style.transition = "5s";
   console.log("loading successfully ");
