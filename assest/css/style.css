@@ -16,7 +16,7 @@ body{
     font-family: 'Cairo', sans-serif;
     direction: rtl;
 }
-/* fixed attr */
+/* fixed attr 
 
     
 .loading{
@@ -65,7 +65,7 @@ body{
         opacity: .1;
     }
 }
-
+*/
 /* NAVBAR */
 .navbar {
     background: black!important;
