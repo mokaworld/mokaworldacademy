@@ -230,6 +230,7 @@ body{
 
  /* start html courses page  */
   .lessons{
+    padding: 50px 0;
     .lesson-box{
         background-color:#F4F6FA;
         padding: 10px;
@@ -241,12 +242,16 @@ body{
         -o-border-radius: 5px;
         box-shadow: 0px 0px 20px #ccc;
         .pic-title{ 
-        
+            padding: 10px 0;
             img{
                 max-width: 100%;
             }
         }
+        hr{
+            color: var(--main-color);
+        }
         .box-content{
+            padding: 10px 0;
             p{
                 color: #777;
                 line-height: 25px;
@@ -258,6 +263,7 @@ body{
             justify-content: space-around;
             align-content: stretch;
             align-items: center;
+            margin-bottom: 10px;
             .btn{
                 background: var(--main-color);
                 border-color: var(--main-color);
