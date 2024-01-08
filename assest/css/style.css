@@ -231,10 +231,47 @@ body{
  /* start html courses page  */
   .lessons{
     .lesson-box{
-        background-color: #ddd;;
-        .pic-title{
+        background-color:#F4F6FA;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 10px 0;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        box-shadow: 0px 0px 20px #ccc;
+        .pic-title{ 
+        
             img{
                 max-width: 100%;
+            }
+        }
+        .box-content{
+            p{
+                color: #777;
+                line-height: 25px;
+            }
+        }
+        .box-watch{
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            align-content: stretch;
+            align-items: center;
+            .btn{
+                background: var(--main-color);
+                border-color: var(--main-color);
+                border-radius: 0;
+                font-size: 15px;
+                .fa-eye{
+                    margin-right: 5px;
+                    font-size: 15px;
+                    font-weight: 100;
+                }
+            }
+            span{
+                text-transform: uppercase;
+                color: #666;
             }
         }
     }

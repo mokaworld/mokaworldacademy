@@ -23,12 +23,3 @@ $(".stop").on("click", function () {
   owl.trigger("stop.owl.autoplay");
 });
 
-// loader
-let loader = document.getElementById("loader");
-
-window.onload = function loderPage() {
-  loader.style.transition = "5s";
-  loader.style.display = "none";
-  
-  console.log("loading successfully ");
-};
