@@ -29,6 +29,7 @@ body{
     background-color: #000;
     z-index: 9999;
     overflow: auto;
+    
   .image-load{
     animation: loading 5s linear 1s infinite reverse both;
     -webkit-animation: loading 5s linear 1s infinite reverse both;
@@ -108,7 +109,7 @@ body{
                 }
             }
             .nav-item
-                margin-left: 5px;
+                margin-left:5px;
                 i{
                     padding-left: 5px;
                 }
@@ -225,6 +226,21 @@ body{
         max-width: 100%;
         }
    }
+
+
+ /* start html courses page  */
+  .lessons{
+    .pic-title{
+        img{
+            max-width: 100%;
+        }
+    }
+  }
+
+
+ /* end html courses page  */
+
+
 /* MEDIA QUERY */
 @media (max-width: 767px)  {
     .navbar-nav{
