@@ -29,4 +29,4 @@ let loader = document.getElementById("loader");
 window.onload = function loderPage () {
   loader.style.display = "none";
   console.log("loading successfully ");
-},5000;
+};
