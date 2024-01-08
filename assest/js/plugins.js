@@ -30,10 +30,3 @@ window.onload = function () {
   loader.style.display = "none";
   console.log("loading successfully ");
 };
-
-// loading page
-
-setInterval(function loadPage() {
-  let loader = document.getElementById("loader");
-  loader.style.display = "none";
-});
