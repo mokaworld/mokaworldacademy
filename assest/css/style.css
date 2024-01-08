@@ -230,11 +230,15 @@ body{
 
  /* start html courses page  */
   .lessons{
-    .pic-title{
-        img{
-            max-width: 100%;
+    .lesson-box{
+        background-color: #ddd;;
+        .pic-title{
+            img{
+                max-width: 100%;
+            }
         }
     }
+  
   }
 
 
