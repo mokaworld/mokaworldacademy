@@ -12,10 +12,11 @@
     --p-padding: 10px 0 10px 0;
 }
 
-a{
+a {
     text-decoration: none;
 }
-li{
+
+li {
     list-style: none;
 }
 
@@ -248,9 +249,19 @@ body {
     }
 
     .btn {
-        background: var(--main-color);
+        background: transparent;
+        color: var(--main-color);
         border-color: var(--main-color);
-        border-radius: 0;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+
+        &:hover {
+            background-color: var(--main-color);
+            color: #fff;
+        }
 
         i {
             padding-right: 5px;
@@ -267,13 +278,28 @@ body {
     background-color: #000;
     color: #fff;
     padding: 20px 0 10px 0;
-    ul{
+
+    ul {
         display: flex;
-        gap: 15px;
-        li{
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 30px;
+      
+        
+
+        li {
             cursor: pointer;
-            &:hover{
-                color: var(--main-color);
+
+            a {
+                color: #fff;
+
+                &:hover {
+                    color: var(--main-color);
+                }
+
+                i {
+                    font-size: 30px;
+                }
             }
         }
     }
@@ -344,7 +370,6 @@ body {
     }
 
 }
-
 
 /* end html courses page  */
 
