@@ -119,6 +119,7 @@ body {
         .dropdown-item {
             display: flex;
             flex-direction: row;
+            text-transform: uppercase;
 
             &:hover {
                 background-color: var(--main-color);
